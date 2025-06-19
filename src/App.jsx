@@ -2,6 +2,7 @@ import './App.css'
 import React from 'react'
 import Body from './Components/Body'
 import Navbar from './Components/Navbar'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <Navbar/>
       <Body/>
+      <Footer/>
     </>
   )
 }

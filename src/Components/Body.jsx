@@ -2,20 +2,19 @@ import React from "react";
 
 const Body = () => {
   return (
-    <div >
-      <figure className="diff aspect-16/9" tabIndex={0}>
-        <div className="diff-item-1" role="img" tabIndex={0}>
-          <div className="bg-primary text-primary-content grid place-content-center text-9xl font-black">
-           Login
+    <div className="w-96 m-10">
+      <div className="card w-96 bg-base-100 card-xl shadow-sm">
+        <div className="card-body">
+          <h2 className="card-title">Xlarge Card</h2>
+          <p>
+            A card component has a figure, a body part, and inside body there
+            are title and actions parts
+          </p>
+          <div className="justify-end card-actions">
+            <button className="btn btn-primary">Buy Now</button>
           </div>
         </div>
-        <div className="diff-item-2" role="img">
-          <div className="bg-base-200 grid place-content-center text-9xl font-black">
-            Signup
-          </div>
-        </div>
-        <div className="diff-resizer"></div>
-      </figure>
+      </div>
     </div>
   );
 };
